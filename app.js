@@ -83,6 +83,15 @@ function updateScore(){
      computerScoreArea.innerHTML = computerScore;
 }
 
+// Preloader
+const preloader = document.querySelector(".preloader");
+
+window.addEventListener("load",()=> {
+    setTimeout(()=> {
+        preloader.style.display = "none";
+    },1000)
+})
+
 
 
 
