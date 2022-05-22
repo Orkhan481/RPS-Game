@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    padding: 15px 0;
+    text-align: center;
+}
+
+#computer-choice {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+#your-choice {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px; 
+}
+
+#choices {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+    margin:0 5px;
+}
