@@ -20,13 +20,13 @@ const rock = document.querySelector("#rock");
     function game(){
         let yourChoice = this.id;
         let computerChoice = choices[randomChoice()];
-        console.log(computerChoice)
         yourChoiceArea.src = `/img/${yourChoice}.png`;
         computerChoiceArea.src = `/img/${computerChoice}.png`;
     
         if(yourChoice == computerChoice){
-           yourScore==yourScore;
-           computerScore==computerScore;
+           yourScore++;
+           computerScore++;
+           updateScore();
         }
         else{
             if(yourChoice == "paper"){
